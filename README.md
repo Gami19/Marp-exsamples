@@ -26,8 +26,8 @@ CLI ツールとして提供され、ファイル変換などのバッチ処理�
 Marp Core をラップし、コマンドラインからの操作を提供します。
 
 例：
--Web アプリケーションでユーザーが入力した Markdown をリアルタイムにスライドとしてプレビューしたい場合 → @marp-team/marp-core を使用
--複数の Markdown ファイルをまとめて PDF に変換したい場合 → @marp-team/marp-cli を使用
+- Web アプリケーションでユーザーが入力した Markdown をリアルタイムにスライドとしてプレビューしたい場合 → @marp-team/marp-core を使用
+- 複数の Markdown ファイルをまとめて PDF に変換したい場合 → @marp-team/marp-cli を使用
 
 今回の例 (Next.js プロジェクトで Marp を使用) では、Marp CLI を child_process で呼び出しているので、Marp CLI を使用していることになります。しかし、内部的には Marp CLI が Marp Core を使用して変換を行っています。
 
