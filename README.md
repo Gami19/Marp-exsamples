@@ -3,10 +3,14 @@
 # パッケージのインストール（今回は1.を使用）
 ```bash
 1.npm install -g @marp-team/marp-cli
+  npm install mammoth
+  npm install tmp 
 ```
 もしくは
 ```bash
 2.npm install --save @marp-team/marp-core
+  npm install mammoth
+  npm install tmp 
 ```
 @marp-team/marp-core と Marp CLI (@marp-team/marp-cli) は、どちらも Marp エコシステムの一部ですが、役割が異なります。簡単に言うと、@marp-team/marp-core は変換のコア部分を提供し、Marp CLI はそれを利用したコマンドラインツールです。
 
